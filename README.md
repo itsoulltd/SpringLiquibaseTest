@@ -15,3 +15,6 @@
 
 ### Spring JPA-Caching Best Practice:
 [Spring JPA-Caching with Hazelcast](https://dzone.com/articles/jpa-caching-with-hazelcast-hibernate-and-spring-bo)
+
+### Spring Liquibase Best Practice:
+[Spring Liquibase Best Practice](https://medium.com/@harittweets/evolving-your-database-using-spring-boot-and-liquibase-844fcd7931da)
