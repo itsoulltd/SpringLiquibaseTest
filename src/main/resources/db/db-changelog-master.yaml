@@ -2,8 +2,11 @@ databaseChangeLog:
 #  - includeAll:
 #      path: src/main/resources/db/changelog/
   - include:
-      file: src/main/resources/db/changelog/01-create-books-and-author-schema.xml
+      file: changelog/01-create-books-and-author-schema.xml
+      relativeToChangelogFile: "true"
   - include:
-      file: src/main/resources/db/changelog/02-insert-data-authors.xml
+      file: changelog/02-insert-data-authors.xml
+      relativeToChangelogFile: "true"
   - include:
-      file: src/main/resources/db/changelog/03-insert-data-books.xml
+      file: changelog/03-insert-data-books.xml
+      relativeToChangelogFile: "true"
