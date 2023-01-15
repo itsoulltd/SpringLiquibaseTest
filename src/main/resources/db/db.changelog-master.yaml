@@ -1,6 +1,4 @@
 databaseChangeLog:
-#  - includeAll:
-#      path: src/main/resources/db/changelog/
   - include:
       file: changelog/01-create-books-and-author-schema.xml
       relativeToChangelogFile: "true"
